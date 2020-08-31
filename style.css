@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row-1, .row-2, .row-3 {
+    background-color: #f3f4f5;
+}
+
+.main-container {
+    width: 90%;
+}
+
+/* Header CSS */
+
+.page-header {
+    background-color: red;
+    height: 95px;
+    width: 90%;
+}
+
+.main-header {
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.header-container .date {
+    color: white;
+}
+
+.header-container .login {
+    color: white;
+    font-weight: 700;
+}
+
+.header-container .subscribe {
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+/* Header Bottom */
+
+.header-bottom {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+
+.trending-topics {
+    margin: 0;
+    padding: 0 1rem;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    background-color: white;
+}
+
+.header-bottom .trending {
+    border-bottom: 5px solid #f3f4f5;
+}
+
+/* Main Body */
+
+.main-body {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.col-1 {
+    width: 100%;
+}
+
+.col-3 {
+    width: 100%;
+}
+
+/* Article Styling */
+.article {
+    align-self: center;
+}
+
+.top-story {
+    border-bottom: 5px solid #f3f4f5;
+}
+
+.snapshot1 {
+    border-bottom: 5px solid #f3f4f5;
+}
+
+.snapshot1-text {
+    font-size: 14px;
+}
+
+/* My Turn Articles */
+
+.my-turn h4 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.my-turn {
+    border-bottom: 5px solid #f3f4f5;
+}
+
+/* More Stories Styling */
+
+.more-stories {
+    font-size: .8rem;
+}
+
+.more-stories .article {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border-top: 3px solid #f3f4f5;
+    padding-top: 1rem;
+}
+
+/*Third Column */
+
+/* The Debate */
+
+.debaters img {
+    height: 63px;
+    width: 63px;
+}
+
+.debater1 {
+    border-bottom: 3px solid #f3f4f5;
+    padding-top: 1rem;
+}
+
+.debaters {
+    border-bottom: 5px solid #f3f4f5;
+    border-top: 5px solid #f3f4f5;
+} 
+
+/* Opinion Section */
+
+.opinion img {
+    height: 63px;
+    width: 63px;
+}
+
+.opinion .d-flex {
+    border-bottom: 3px solid #f3f4f5;
+}
+
+.opinion h5 {
+    font-size: 1rem;
+}
+
+/* Sign Up */
+
+.sign-up {
+    background: #F4F5F6;
+}
+
+.sign-up button {
+    background-color: #F61602;
+    color: white;
+}
+
+/* Main Body 2 Start */ 
+
+/* Seperator */
+
+.section-seperator {
+    border-bottom: 5px solid #f3f4f5;
+}
+
+/* Articles */
+
+.article1 .caption1 {
+    background-color: #f3f4f5;
+    z-index: 1;
+}
+
+.article1 img {
+    z-index: 0;
+}
+
+.red-button {
+    background-color: #FF0100;
+    font-size: 1.3rem;
+}
+
+.clear-button {
+    color: #FF0100;
+    font-size: 1.3rem;
+}
+
+.top-articles p {
+    font-size: 25px;
+    line-height: 1.5rem;
+}
+
+.bottom-articles p {
+    font-size: 25px;
+    line-height: 1.5rem;
+}
+
+/* Main Body 4 */
+
+.us-header {
+    color: #FF0100;
+}
+
+.main-4 .article {
+    border-bottom: 3px solid #f4f5f6;
+}
+
+/* Main Body 5 */
+.world-header {
+    color: #FF0100;
+}
+
+.main-5 .article {
+    border-bottom: 3px solid #f4f5f6;
+}
+
+/* Main Body 6 */
+
+.business-header {
+    color: #FF0100;
+}
+
+.main-6 .article {
+    border-bottom: 3px solid #f4f5f6;
+}
+
+/* Main Body 7 */
+
+.tech-header {
+    color: #FF0100;
+}
+
+.main-7 .article {
+    border-bottom: 3px solid #f4f5f6;
+}
+
+/* Main Body 8 */
+
+.culture-header {
+    color: #FF0100;
+}
+
+.main-8 .article {
+    border-bottom: 3px solid #f4f5f6;
+}
+
+/* Main Body 9 */
+
+.sports-header {
+    color: #FF0100;
+}
+
+.main-9 .article {
+    border-bottom: 3px solid #f4f5f6;
+}
+
+/* Main 10 */
+
+.subscribe .header {
+    color: #FF0100;
+}
+
+.subscribe .content1 {
+    background: #f3f4f5;
+    padding: 1rem;
+}
+
+.subscribe button {
+    background-color: #FF0100;
+    color: white;
+    font-weight: bold;
+}
+
+.content-2b {
+    width: 50%;
+}
+
+.content-2a {
+    width: 50%;
+    height: 200px;
+}
+
+/* Footer */
+
+.footer-header h1 {
+    font-size: 3rem;
+    color: #FF0100;
+}
+
+.footer-header p {
+    margin-top: 1.8rem;
+    font-size: .9rem;
+}
+
+.footer-header {
+    border-bottom: 3px solid #f3f4f5;
+}
+
+.footer .countries {
+    list-style-type: none;
+}
+
+.footer .country {
+    margin-left: 1rem;
+}
+
+.footer .links {
+    list-style-type: none;
+}
+
+@media (max-width: 991.98px) {
+    h1.main-header {
+        display: none;
+    }
+
+    div.header-bottom {
+        display: none;
+    }
+
+    .page-header {
+        height: 45px;
+    }
+}
+
+
+
